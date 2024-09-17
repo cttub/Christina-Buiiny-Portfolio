@@ -1,5 +1,5 @@
 .navbar-container{
-    padding: 5rem;
+    padding: 2rem 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,6 +46,10 @@
     margin-top: 0px;
     color: white;
     font-size: .7rem !important;
+}
+.navbar-desktop{
+  position: sticky;
+  top: 0;
 }
 @media (max-width: 1000px) {
     .navbar-desktop {

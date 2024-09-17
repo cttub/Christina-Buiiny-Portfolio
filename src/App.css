@@ -157,6 +157,29 @@ a:hover{
   color: var(--text-shade-link) !important;
 }
 
+
+/* Other Classes */
+body{
+  background-color: white;
+}
+section{
+  padding: 100px 20%;
+}
+.icon-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-icon{
+  width: 100%;
+}
+.meta{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+
 /* Responsive typography adjustments */
 @media (max-width: 1200px) {
   h1 {
@@ -232,11 +255,3 @@ a:hover{
 }
 
 
-.icon-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.nav-icon{
-  width: 100%;
-}
