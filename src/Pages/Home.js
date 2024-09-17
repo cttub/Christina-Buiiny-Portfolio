@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../Components/Button';
 import './Styles/Home.css';
 import Card from '../Components/Card';
-import RageRoomMobile from '../Assets/Images/RageRoomMobile.png';
+import Image from '../Components/Image';
 
 function Home() {
   return (
@@ -13,7 +13,7 @@ function Home() {
 
         <Card 
       type="Big Vertical"
-      imgSrc={RageRoomMobile}
+      imgSrc={"RageRoomMobile"}
       companyType = "Marketing Agency"
       companyName="The Rage Room"
       title="Increasing Revenue by 83% with optimized UX UI"

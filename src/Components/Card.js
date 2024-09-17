@@ -1,7 +1,7 @@
 import React from 'react';
 import './Styles/Card.css'; 
 import Button from './Button'; 
-
+import Image from './Image';
 const Card = ({
   type, 
   imgSrc, 
@@ -18,6 +18,7 @@ const Card = ({
       {type === 'Smaller' && (
         <div className="smaller-card">
           <img src={imgSrc} alt={title} className="thumbnail" />
+          <Image name={imgSrc} alt= "project-thumbnail" className="thumbnail"/>
           <p className="meta company-type">{companyType}</p>
           <h3 className="company-name">{companyName}</h3>
           <p className="meta position">{position}</p>
@@ -28,7 +29,7 @@ const Card = ({
       {type === 'Small' && (
         <div className="small-card">
           <div className="top">
-            <img src={imgSrc} alt={title} className="thumbnail" />
+          <Image name={imgSrc} alt= "project-thumbnail" className="thumbnail"/>
             <p className="meta company-name">{companyName}</p>
           </div>
           <div className="bottom">
@@ -41,7 +42,7 @@ const Card = ({
       {type === 'Big Vertical' && (
         <div className="big-card-vertical">
           <div className="top">
-            <img src={imgSrc} alt={title} className="thumbnail" />
+            <Image name={imgSrc} alt= "project-thumbnail" className="thumbnail"/>
             <p className="meta company-name">{companyName}</p>
           </div>
           <div className="bottom">
