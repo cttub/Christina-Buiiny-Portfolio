@@ -59,7 +59,10 @@
   --alert-shade-information: #126BC1;
   --alert-shade-neutral: #CFAF00;
 }
-
+/*Color*/
+.white-color{
+  color: white
+}
 /* Font-face definitions */
 @font-face {
   font-family: 'Uniform';
@@ -231,7 +234,7 @@ section{
     font-size: 0.875rem !important;
   }
   section{
-    padding: 100px 10%;
+    padding: 100px 15%;
   }
 
 }
@@ -259,3 +262,263 @@ section{
 }
 
 
+.col-1 {
+  flex: 0 0 8.33%;
+  max-width: 8.33%;
+  padding: 15px; /* Adjust for gutter spacing */
+}
+
+.col-2 {
+  flex: 0 0 16.67%;
+  max-width: 16.67%;
+  padding: 15px; /* Adjust for gutter spacing */
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding: 15px; /* Adjust for gutter spacing */
+}
+
+.col-4 {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 15px; /* Adjust for gutter spacing */
+}
+
+.col-5 {
+  flex: 0 0 41.67%;
+  max-width: 41.67%;
+  padding: 15px; /* Adjust for gutter spacing */
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 15px; /* Adjust for gutter spacing */
+}
+
+.col-7 {
+  flex: 0 0 58.33%;
+  max-width: 58.33%;
+  padding: 15px; /* Adjust for gutter spacing */
+}
+
+.col-8 {
+  flex: 0 0 66.67%;
+  max-width: 66.67%;
+  padding: 15px; /* Adjust for gutter spacing */
+}
+
+.col-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+  padding: 15px; /* Adjust for gutter spacing */
+}
+
+.col-10 {
+  flex: 0 0 83.33%;
+  max-width: 83.33%;
+  padding: 15px; /* Adjust for gutter spacing */
+}
+
+.col-11 {
+  flex: 0 0 91.67%;
+  max-width: 91.67%;
+  padding: 15px; /* Adjust for gutter spacing */
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 15px; /* Adjust for gutter spacing */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .col-md-1 {
+    flex: 0 0 8.33%;
+    max-width: 8.33%;
+  }
+
+  .col-md-2 {
+    flex: 0 0 16.67%;
+    max-width: 16.67%;
+  }
+
+  .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+
+  .col-md-5 {
+    flex: 0 0 41.67%;
+    max-width: 41.67%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-md-7 {
+    flex: 0 0 58.33%;
+    max-width: 58.33%;
+  }
+
+  .col-md-8 {
+    flex: 0 0 66.67%;
+    max-width: 66.67%;
+  }
+
+  .col-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .col-md-10 {
+    flex: 0 0 83.33%;
+    max-width: 83.33%;
+  }
+
+  .col-md-11 {
+    flex: 0 0 91.67%;
+    max-width: 91.67%;
+  }
+
+  .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .col-lg-1 {
+    flex: 0 0 8.33%;
+    max-width: 8.33%;
+  }
+
+  .col-lg-2 {
+    flex: 0 0 16.67%;
+    max-width: 16.67%;
+  }
+
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-lg-4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+
+  .col-lg-5 {
+    flex: 0 0 41.67%;
+    max-width: 41.67%;
+  }
+
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-lg-7 {
+    flex: 0 0 58.33%;
+    max-width: 58.33%;
+  }
+
+  .col-lg-8 {
+    flex: 0 0 66.67%;
+    max-width: 66.67%;
+  }
+
+  .col-lg-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .col-lg-10 {
+    flex: 0 0 83.33%;
+    max-width: 83.33%;
+  }
+
+  .col-lg-11 {
+    flex: 0 0 91.67%;
+    max-width: 91.67%;
+  }
+
+  .col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .col-xl-1 {
+    flex: 0 0 8.33%;
+    max-width: 8.33%;
+  }
+
+  .col-xl-2 {
+    flex: 0 0 16.67%;
+    max-width: 16.67%;
+  }
+
+  .col-xl-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-xl-4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+
+  .col-xl-5 {
+    flex: 0 0 41.67%;
+    max-width: 41.67%;
+  }
+
+  .col-xl-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-xl-7 {
+    flex: 0 0 58.33%;
+    max-width: 58.33%;
+  }
+
+  .col-xl-8 {
+    flex: 0 0 66.67%;
+    max-width: 66.67%;
+  }
+
+  .col-xl-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .col-xl-10 {
+    flex: 0 0 83.33%;
+    max-width: 83.33%;
+  }
+
+  .col-xl-11 {
+    flex: 0 0 91.67%;
+    max-width: 91.67%;
+  }
+
+  .col-xl-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

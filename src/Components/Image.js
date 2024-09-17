@@ -1,13 +1,14 @@
 import React from 'react';
 
 import RageRoomMobile from '../Assets/Images/RageRoomMobile.png';
-
+import LandingImage from '../Assets/Images/LandingImage.png';
 
 const images = {
     RageRoomMobile,
+    LandingImage,
   };
 
-const Image = ({ name, alt, className }) => {
+const Image = ({ name, alt, className, width,height }) => {
     const src = images[name];
   
     if (!src) {
@@ -15,7 +16,7 @@ const Image = ({ name, alt, className }) => {
       return null;
     }
   
-    return <img src={src} alt={alt} className={className} />;
+    return <img src={src} alt={alt} className={className} width={width} height={height}/>;
   };
   
   export default Image;
