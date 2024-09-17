@@ -7,22 +7,11 @@ import Image from '../Components/Image';
 function Home() {
   return (
     <>
-    <section>
+    <section className='landing'>
  
 
 
-        <Card 
-      type="Big Vertical"
-      imgSrc={"RageRoomMobile"}
-      companyType = "Marketing Agency"
-      companyName="The Rage Room"
-      title="Increasing Revenue by 83% with optimized UX UI"
-      position="Web Design & Developer"
-      linkHref="/About"
-      linkText="View Project"
-      description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-    />
- 
+    
         
     </section>
  
