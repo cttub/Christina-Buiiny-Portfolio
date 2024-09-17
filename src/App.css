@@ -207,6 +207,7 @@ section{
   a{
     font-size: .8rem !important;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -228,6 +229,9 @@ section{
 
   h5 {
     font-size: 0.875rem !important;
+  }
+  section{
+    padding: 100px 10%;
   }
 
 }

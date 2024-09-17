@@ -18,7 +18,7 @@ function Home() {
       companyName="The Rage Room"
       title="Increasing Revenue by 83% with optimized UX UI"
       position="Web Design & Developer"
-      linkHref="https://example.com"
+      linkHref="/About"
       linkText="View Project"
       description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
     />

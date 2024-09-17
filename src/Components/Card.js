@@ -46,13 +46,29 @@ const Card = ({
             <p className="meta company-name">{companyName}</p>
           </div>
           <div className="bottom">
-            <p className="meta position">{companyType}</p>
-            <h5 className="title">{title}</h5>
-            <p>{description}</p>
-            <a  className="link" href={linkHref}>{linkText}</a>
+            <p className="meta companyType">{companyType}</p>
+            <h3 className="title">{title}</h3>
+            <p className="description">{description}</p>
+            <Button className="button--primary" href={linkHref}>{linkText}</Button>
           </div>
         </div>
       )}
+       {type === 'Big Horizontal' && (
+        <div className="big-card-horizontal">
+          <div className="image">
+            <Image name={imgSrc} alt= "project-thumbnail" className="thumbnail"/>
+          </div>
+          <div className="information">
+            <p className="meta companyType">{companyType}</p>
+            <h3 className="title">{title}</h3>
+            <p className="description">{description}</p>
+            <p className="company-name"><i>{companyName}</i></p>
+            <Button className="button--primary" href={linkHref}>{linkText}</Button>
+          </div>
+        </div>
+      )}
+
+
     </div>
   );
 };
