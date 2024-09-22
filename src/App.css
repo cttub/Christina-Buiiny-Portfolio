@@ -154,6 +154,7 @@ a {
   color: var(--text-color-link) !important;
   text-decoration: none;
   text-decoration: underline !important; 
+  cursor: pointer;
 }
 
 a.meta-link{
