@@ -15,6 +15,7 @@
 }
 .navbar-link.active {
     color: var(--neutral-color-white) !important;
+    text-decoration: underline !important;
   }
   
 .navbar-item > div{

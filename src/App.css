@@ -63,6 +63,13 @@
 .white-color{
   color: white
 }
+.primary-blue-color{
+  color: var(--primary-color-blue);
+}
+.primary-pink-color{
+  color: var(--primary-color-pink);
+}
+
 /* Font-face definitions */
 @font-face {
   font-family: 'Uniform';
@@ -167,6 +174,7 @@ body{
 }
 section{
   padding: 100px 20%;
+  padding-bottom: 150px;
 }
 .icon-container{
   display: flex;
@@ -181,7 +189,25 @@ section{
   letter-spacing: 1px;
   font-weight: bold;
 }
-
+.text-center{
+  text-align: center;
+}
+.heading-with-top-subheading{
+  margin-top: -30px;
+}
+.small-card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.vertical-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Responsive typography adjustments */
 @media (max-width: 1200px) {
