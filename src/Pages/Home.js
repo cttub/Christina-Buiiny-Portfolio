@@ -59,10 +59,10 @@ function Home() {
           type="Small"
           imgSrc={"RageRoomMobile"}
           companyName="The Rage Room"
-          title="Increasing Revenue by 83% with optimized UX UI"
+          title="Enhancing UX booking with design laws and principles."
           position="Web Design & Developer"
-          linkHref="https://example.com"
-          linkText="View Project"
+          linkHref="/Work/Case-Studies/Enhancing-UX-Booking"
+          linkText="View Case Study"
         />
       </div>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../Components/Button';
 
-function About() {
+function Work() {
   return (
     <div className='container'>
         <p>MyWork</p>
@@ -9,4 +9,4 @@ function About() {
   );
 }
 
-export default About;
+export default Work;

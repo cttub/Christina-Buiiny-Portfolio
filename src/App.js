@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home.js';
 import About from './Pages/About.js';
 import Work from './Pages/MyWork.js';
-
+import RageRoomBookingCaseStudy from './Pages/CaseStudies/RageRoomBookingCaseStudy.js';
 import StyleSheet from './Pages/StyleSheet.js';
 import Navbar from './Components/Navbar';  // Import Navbar
 import './App.css';
@@ -19,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/Work" element={<Work />} />
+          <Route path="/Work/Case-Studies/Enhancing-UX-Booking" element={<RageRoomBookingCaseStudy />} />
           <Route path="/stylesheet" element={<StyleSheet />} />
         </Routes>
       
