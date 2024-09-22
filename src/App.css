@@ -209,6 +209,11 @@ section{
     justify-content: center;
     align-items: center;
 }
+.horizontal-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* Responsive typography adjustments */
 @media (max-width: 1200px) {

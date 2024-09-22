@@ -2,10 +2,11 @@ import React from 'react';
 
 import RageRoomMobile from '../Assets/Images/RageRoomMobile.png';
 import LandingImage from '../Assets/Images/LandingImage.png';
-
+import PFP from '../Assets/Images/PFP.png';
 const images = {
     RageRoomMobile,
     LandingImage,
+    PFP,
   };
 
 const Image = ({ name, alt, className, width,height }) => {

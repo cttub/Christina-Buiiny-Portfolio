@@ -1,0 +1,22 @@
+.pfp{
+
+    margin-right: 40px;
+}
+.pfp > img{
+    border: solid 4px var(--primary-color-pink);
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+
+@media (max-width: 900px){
+    .about-information{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .information > h1{
+        text-align: center;
+    }
+  }
