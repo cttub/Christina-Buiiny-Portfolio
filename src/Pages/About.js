@@ -12,7 +12,7 @@ function About() {
         />
 
         <div className='about-information horizontal-flex'>
-            <div className='pfp col-4'>
+            <div className='pfp col-3'>
               <Image
                className="pfpImage"
                name = "PFP"
