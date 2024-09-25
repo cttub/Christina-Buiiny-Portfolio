@@ -34,7 +34,7 @@ function Home() {
           <p style={{marginBottom: "40px"}}>Learn more about me, my experiences, and skills! I am excited to meet you and make a positive impact for you and your company.</p>
           <Button type="button" className="button--primary" href="/Contact">Contact Me</Button>
         </div>
-        <div className="image col-lg-4 col-12">
+        <div className="image col-lg-5 col-12">
           <Image name="IPadImage" />
         </div>
       </section>
@@ -73,7 +73,7 @@ function Home() {
           <p style={{marginBottom: "40px"}}>Along with my case studies, I foster many skills and experiences through various roles and responsibilities. Check out my Project Portfolio to learn more.</p>
           <Button type="button" className="button--primary" href="/Work">View Projects</Button>
         </div>
-        <div className="image col-lg-4 col-12 bunnyHome">
+        <div className="image col-lg-5 col-12 bunnyHome">
           <Image name="Bunny" />
         </div>
       </section>
