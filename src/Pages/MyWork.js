@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../Components/Button';
 import SubPage from './Templates/SubPage';
+import Faces from '../Components/Faces';
 function Work() {
   return (
     <section>
@@ -10,6 +11,8 @@ function Work() {
           description="Here are some of my highlighted work relating to website development, design and or other services I have offered for some of the companies I worked for. "
           previousPageURL="/"
         />
+       
+
   </section>
   );
 }
