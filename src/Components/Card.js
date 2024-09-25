@@ -17,11 +17,10 @@ const Card = ({
     <div className={`card`}>
       {type === 'Smaller' && (
         <div className="smaller-card">
-          <img src={imgSrc} alt={title} className="thumbnail" />
           <Image name={imgSrc} alt= "project-thumbnail" className="thumbnail"/>
           <p className="meta company-type">{companyType}</p>
           <h3 className="company-name">{companyName}</h3>
-          <p className="meta position">{position}</p>
+          <p className="position">{position}</p>
           <Button className="button--primary" href={linkHref}>{linkText}</Button>
         </div>
       )}

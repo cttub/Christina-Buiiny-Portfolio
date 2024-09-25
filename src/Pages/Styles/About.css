@@ -16,6 +16,7 @@
     text-decoration: none !important;
     cursor: pointer;
     transition: ease-in-out .1s;
+    align-items: space-between !important;
 }
 .link-container:hover{
     transform: scale(1.05);

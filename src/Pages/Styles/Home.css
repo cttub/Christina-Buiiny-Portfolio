@@ -6,45 +6,12 @@
     border: 4px solid var(--primary-shade-pink);
     padding-bottom: 0px;
     padding-top: 200px;
-
+    
     display: flex;
     flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: center;
 }
-.homepage-section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 100px;
-}
-.homepage-section > .image{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   height: 400px;
-   margin-top: 10px;
-}
-
-.homepage-section> .image > img{
-    width: 90%;
-}
-.homepage-section> .image > img.bunnyHome{
-    max-width: 500px;
-}
-.homepage-section.second{
-    flex-wrap: wrap-reverse;
-}
-.homepage.case-studies-section{
-    background-color: var(--neutral-color-lightGrey);
-}
-@media (max-width:900px) {
-    .bunnyHome{
-        margin-bottom: 200px;
-    } 
-}
-
-
 .landing-img{
     width: 100%;   
 }
@@ -55,29 +22,75 @@
     margin-right: 40px;
 }
 
-.button-side{
+
+.homepage-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0 5%; 
+}
+
+.homepage-section > .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.homepage-section > .image > img {
+    width: 100%;
+}
+
+.homepage-section > .image > img.bunnyHome {
+    max-width: 300px;
+}
+
+.homepage-section.second {
+    flex-wrap: wrap-reverse;
+}
+
+.homepage.case-studies-section {
+    background-color: var(--neutral-color-lightGrey);
+}
+
+@media (max-width: 900px) {
+    .bunnyHome > img {
+        width: 10px;
+        margin-top: 40px;
+    }
+
+    .homepage-section {
+        margin-top: 0; 
+    }
+}
+
+.button-side {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-   
 }
-.button-side > .button{
+
+.button-side > .button {
     margin-right: 20px;
     margin-bottom: 30px;
 }
-@media (max-width: 991px){
-    .button-side{
+
+@media (max-width: 991px) {
+    .button-side {
         display: none;
     }
-    .landing-header{
+
+    .landing-header {
         text-align: center;
     }
-    .img-container{
+
+    .img-container {
         width: 100%;
     }
-    .landing-img{
+
+    .landing-img {
         width: 80%;
         margin-left: 100px;
-        
     }
 }
