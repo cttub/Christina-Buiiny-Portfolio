@@ -33,20 +33,24 @@ function Home() {
         
     </section>
 
-    <section className = "introdution" style={{display:"flex", justifyContent:"space-between"}}>
-      <div className='col-6'>
-         <h1 className='primary-blue-color'>Hello I am Christina.</h1>
-         <p>A passionate web developer with a growing focus on crafting intuitive user experiences.</p>
+    <section className = "introduction homepage-section">
+      <div className='col-10 col-lg-6'>
+        <h4 className='primary-pink-color'>Welcome to my portfolio!</h4>
+        <h1 className='primary-blue-color heading-with-top-subheading'>Where creativity meets technical proficiency.</h1>
+         <p>My name is Christina. A passionate web developer with a growing focus on crafting intuitive user experiences.</p>
          <p>Learn more about me, my experiences and skills! I am excited to meet you and make a positive impact for you and your company.</p>
          <br></br>
          <Button type="button" className="button--primary" href="/Contact">
           Contact Me
           </Button>  
       </div>
+      <div className = "image col-md-5 col-12">
+        <Image name ="IPadImage"/>
+      </div>
      
     </section>
 
-    <section className="case-studies vertical-flex">
+    <section className="homepage case-studies-section vertical-flex">
 
       <div style={{margin: "auto"}}>
         <h4 className='primary-pink-color text-center'>Case Studies</h4>
@@ -75,9 +79,11 @@ function Home() {
     </section>
 
 
-    <section>
-
-    <div className='col-6'>
+    <section className='homepage-section second'>
+    <div className='image col-md-5 col-12 '>
+        <Image className="bunnyHome" name = "Bunny"/>
+      </div>
+     <div className='col-10 col-lg-6'>
          <h4 className='primary-pink-color'>Project Portfolio</h4>
          <h1 className='primary-blue-color heading-with-top-subheading'>See my experience.</h1>
          <p>A passionate web developer with a growing focus on crafting intuitive user experiences.</p>
@@ -87,6 +93,8 @@ function Home() {
          View Projects
           </Button>  
       </div>
+     
+    
     </section>
  
     </>

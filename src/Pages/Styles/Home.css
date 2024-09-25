@@ -12,9 +12,41 @@
     align-items: center;
     justify-content: center;
 }
+.homepage-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.homepage-section > .image{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 400px;
+   margin-top: 10px;
+}
+
+.homepage-section> .image > img{
+    width: 90%;
+}
+.homepage-section> .image > img.bunnyHome{
+    max-width: 500px;
+}
+.homepage-section.second{
+    flex-wrap: wrap-reverse;
+}
+.homepage.case-studies-section{
+    background-color: var(--neutral-color-lightGrey);
+}
+@media (max-width:900px) {
+    .bunnyHome{
+        margin-bottom: 200px;
+    } 
+}
+
+
 .landing-img{
-    width: 100%;
-    
+    width: 100%;   
 }
 .img-container{
     display: flex;
