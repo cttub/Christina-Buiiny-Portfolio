@@ -9,10 +9,10 @@ function Home() {
     <>
       {/* Hero Section */}
       <section className='landing hero'>
-        <div className='col-lg-5 img-container'>
+        <div className='col-lg-4 img-container'>
           <Image name="LandingImage" alt="LandingImage" className="landing-img" />
         </div>
-        <div className='col-lg-6'>
+        <div className='col-lg-7'>
           <h1 className='white-color landing-header'>
             Driving Innovation and Growth Through Seamless Digital Experiences
           </h1>
