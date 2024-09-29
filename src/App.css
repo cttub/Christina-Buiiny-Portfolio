@@ -72,6 +72,9 @@ body{
 .primary-pink-color{
   color: var(--primary-color-pink);
 }
+.secondary-blue-color{
+  color: var(--secondary-color-blue);
+}
 
 /* Font-face definitions */
 @font-face {
@@ -216,6 +219,9 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.wrap{
+  flex-wrap: wrap;
 }
 
 /* Responsive typography adjustments */

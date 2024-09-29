@@ -68,7 +68,7 @@
 
 /*Big Vertical Card*/
 .big-card-vertical{
-    width: 300px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,7 +83,7 @@
 }
 .big-card-vertical > .top > .thumbnail{
     width: 100%;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
     
 }

@@ -26,7 +26,7 @@ const SubPage = ({ title, description, previousPageURL, previousPage }) => {
         </div>
       </a>
 
-      <div>
+      <div style={{marginBottom: "100px"}}>
         <h1 style={{ marginBottom: '-10px' }}>{title}</h1>
         <p>{description}</p>
       </div>
