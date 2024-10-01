@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './Styles/Button.css';
 
-const Button = ({ type = 'button', onClick, children, className = '', style = {}, href, ...props }) => {
+const Button = ({ target, type = 'button', onClick, children, className = '', style = {}, href, ...props }) => {
   // If href is provided, determine whether it's an internal or external link
   const isExternal = href && (href.startsWith('http') || href.startsWith('//'));
 
@@ -12,6 +12,7 @@ const Button = ({ type = 'button', onClick, children, className = '', style = {}
       // If the link is external, use <a> tag
       return (
         <a 
+          target={target}
           href={href}
           className={`button ${className}`}
           style={style}

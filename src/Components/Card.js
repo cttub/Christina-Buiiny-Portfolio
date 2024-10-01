@@ -11,7 +11,8 @@ const Card = ({
   position,
   description,
   linkHref, 
-  linkText 
+  linkText,
+  target,
 }) => {
   return (
     <div className={`card`}>
@@ -21,7 +22,7 @@ const Card = ({
           <p className="meta company-type">{companyType}</p>
           <h3 className="company-name">{companyName}</h3>
           <p className="position">{position}</p>
-          <Button className="button--primary" href={linkHref}>{linkText}</Button>
+          <Button className="button--primary" href={linkHref} target={target}>{linkText}</Button>
         </div>
       )}
 
@@ -48,7 +49,7 @@ const Card = ({
             <p className="meta companyType">{companyType}</p>
             <h3 className="title">{title}</h3>
             <p className="description">{description}</p>
-            <Button className="button--primary" href={linkHref}>{linkText}</Button>
+            <Button className="button--primary" target={target} href={linkHref}>{linkText}</Button>
           </div>
         </div>
       )}
@@ -62,7 +63,7 @@ const Card = ({
             <h3 className="title">{title}</h3>
             <p className="description">{description}</p>
             <p className="company-name"><i>{companyName}</i></p>
-            <Button className="button--primary" href={linkHref}>{linkText}</Button>
+            <Button target={target} className="button--primary" href={linkHref}>{linkText}</Button>
           </div>
         </div>
       )}

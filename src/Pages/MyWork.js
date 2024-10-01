@@ -69,28 +69,31 @@ function Work() {
        <div className='horizontal-flex wrap' id='websites'>
             <Card 
               type = "Smaller"
-              companyName="Digital Medicine Society"
-              position="Website Development"
-              linkHref="/Work/DiMe"
-              linkText="View Project"
-              imgSrc="DiMe"
+              companyName="Markitfly"
+              position="Marketing Agency"
+              linkHref="https://markitfly.com/"
+              linkText="View Website"
+              imgSrc="MarkitflyMockup"
+              target="_blank"
             />
             <Card 
               type = "Smaller"
-              companyName="Markitfly"
-              position="Creativity & Technology"
-              linkHref="/Work/Markitfly"
-              linkText="View Project"
-              imgSrc="Markitfly"
+              companyName="Transformation"
+              position="Lawn & Landscaping"
+              linkHref="https://transformlandmo.com/"
+              linkText="View Website"
+              imgSrc="TransformationMockup"
+              target="_blank"
             />
 
             <Card 
               type = "Smaller"
               companyName="The Rage Room"
               position="Creativity & Technology"
-              linkHref="/Work/TheRageRoomSpringfield"
-              linkText="View Project"
-              imgSrc="RageRoom"
+              linkHref="https://therageroomspringfield.com/"
+              linkText="View Website"
+              imgSrc="RageRoomMockup"
+              target="_blank"
             />
 
 
