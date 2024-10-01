@@ -30,7 +30,7 @@ function Work() {
        </section>
 
        {/* Project Portfolio */}
-       <h1 className='text-center secondary-blue-color'>Case Studies</h1>
+       <h1 className='text-center secondary-blue-color'>Project Portfolio</h1>
        <div className='horizontal-flex wrap' id='projects'>
             <Card 
               type = "Smaller"
@@ -43,7 +43,7 @@ function Work() {
             <Card 
               type = "Smaller"
               companyName="Markitfly"
-              position="Website Development"
+              position="Creativity & Technology"
               linkHref="/Work/Markitfly"
               linkText="View Project"
               imgSrc="Markitfly"
@@ -52,8 +52,8 @@ function Work() {
             <Card 
               type = "Smaller"
               companyName="The Rage Room"
-              position="Website Development"
-              linkHref="/Work/Markitfly"
+              position="Creativity & Technology"
+              linkHref="/Work/TheRageRoomSpringfield"
               linkText="View Project"
               imgSrc="Markitfly"
             />

@@ -25,19 +25,19 @@ function About() {
                   <p>I am driven by opportunities that provide room for continuous learning and personal growth, both in my career and personal interests. I am dedicated to not only delivering high-quality work, but also fostering a collaborative environment where we thrive on each other's success and grow by learning from our experiences.</p>
                   <div className='quick-links horizontal-flex col-12' style={{ marginTop: "50px", justifyContent: "space-around"}}>
                       <a className='link-container vertical-flex'>
-                          <Icon name = "LinkedIn" height = "40px"/>
+                          <Icon name = "LinkedIn" height = "60px"/>
                           <p className='meta primary-blue-color'>LinkedIn</p>
                       </a>
                       <a className='link-container vertical-flex'>
-                          <Icon name = "GitHub" height = "40px"/>
+                          <Icon name = "GitHub" height = "60px"/>
                           <p className='meta primary-blue-color'>GitHub</p>
                       </a>
                       <a className='link-container vertical-flex'>
-                          <Icon name = "Mail" height = "40px"/>
+                          <Icon name = "Mail" height = "60px"/>
                           <p className='meta primary-blue-color'>Email</p>
                       </a>
                       <a className='link-container vertical-flex'>
-                          <Icon name = "Heart" height = "40px"/>
+                          <Icon name = "Heart" height = "60px"/>
                           <p className='meta primary-blue-color'>Resume</p>
                       </a>
                       

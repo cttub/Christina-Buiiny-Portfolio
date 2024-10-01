@@ -48,6 +48,7 @@ function DiMe() {
             <p>Some highlights or custom HTML here</p>
 
             }
+             totalDuration="1 Year 7 Months"
             />
 
 

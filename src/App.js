@@ -6,6 +6,8 @@ import About from './Pages/About.js';
 import Work from './Pages/MyWork.js';
 import Contact from './Pages/Contact.js';
 import DiMe from './Pages/Projects/DiMe.js';
+import Markitfly from './Pages/Projects/Markitfly.js';
+import RageRoom from './Pages/Projects/RageRoom.js';
 
 import RageRoomBookingCaseStudy from './Pages/CaseStudies/RageRoomBookingCaseStudy.js';
 import StyleSheet from './Pages/StyleSheet.js';
@@ -26,6 +28,8 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Work/Case-Studies/Enhancing-UX-Booking" element={<RageRoomBookingCaseStudy />} />
           <Route path = "/Work/DiMe" element = {<DiMe/>}/>
+          <Route path = "/Work/Markitfly" element = {<Markitfly/>}/>
+          <Route path = "/Work/TheRageRoomSpringfield" element = {<RageRoom/>}/>
           <Route path="/stylesheet" element={<StyleSheet />} />
 
         </Routes>
