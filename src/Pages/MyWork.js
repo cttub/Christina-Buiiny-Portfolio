@@ -40,6 +40,23 @@ function Work() {
               linkText="View Project"
               imgSrc="DiMe"
             />
+            <Card 
+              type = "Smaller"
+              companyName="Markitfly"
+              position="Website Development"
+              linkHref="/Work/Markitfly"
+              linkText="View Project"
+              imgSrc="Markitfly"
+            />
+
+            <Card 
+              type = "Smaller"
+              companyName="The Rage Room"
+              position="Website Development"
+              linkHref="/Work/Markitfly"
+              linkText="View Project"
+              imgSrc="Markitfly"
+            />
 
 
        </div>

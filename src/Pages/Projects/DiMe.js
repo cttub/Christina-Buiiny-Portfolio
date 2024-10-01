@@ -43,7 +43,11 @@ function DiMe() {
                   </span>) }
             
               ]}
-            highlights={<p>Some highlights or custom HTML here</p>}
+            highlights={
+            
+            <p>Some highlights or custom HTML here</p>
+
+            }
             />
 
 
