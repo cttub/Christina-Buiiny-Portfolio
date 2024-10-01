@@ -102,10 +102,7 @@ function Home() {
         </div>
       </section>
 
-      <section id='connect'>
-        <p>CONNECT</p>
 
-      </section>
     </>
   );
 }

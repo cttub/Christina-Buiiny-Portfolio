@@ -1,40 +1,75 @@
-.pfp{
+.pfp {
     margin-right: 40px;
 }
-.pfp > img{
+
+.pfp > img {
     border: solid 4px var(--primary-color-pink);
     border-radius: 50px;
     object-fit: cover;
 }
 
-.about-information{
+.about-information {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 }
-.link-container{
+
+.quick-links {
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.link-container {
     text-decoration: none !important;
     cursor: pointer;
-    transition: ease-in-out .1s;
+    transition: ease-in-out 0.1s;
     align-items: space-between !important;
 }
-.link-container:hover{
+
+.link-container:hover {
     transform: scale(1.05);
 }
 
-@media (max-width: 900px){
-    .about-information{
-        display: flex;
+
+
+.hobbies-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hobby {
+    margin-right: 20px;
+}
+
+.hobby-icon {
+    margin-right: 20px;
+}
+
+.hobby-information h4 {
+    margin-bottom: -20px;
+}
+
+.applications, .hobbies, .education-certificates {
+    margin-top: 150px;
+}
+
+.application-container p {
+    text-align: left;
+}
+
+@media (max-width: 900px) {
+    .about-information {
         flex-direction: column !important;
         justify-content: center;
         align-items: center;
     }
-    .information > h1{
+
+    .information > h1 {
         text-align: center;
     }
-  }
+}
 
-  @media (max-width: 1000px){
-    body{
+@media (max-width: 1000px) {
+    body {
         padding-bottom: 200px !important;
     }
-  }
+}
