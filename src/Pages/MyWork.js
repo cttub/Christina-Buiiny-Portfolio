@@ -16,6 +16,7 @@ function Work() {
        
      
         <h1 className='text-center secondary-blue-color'>Case Studies</h1>
+        
         <div className='horizontal-flex wrap' id='case-studies'>
           <Card
             type = "Big Vertical"
@@ -27,10 +28,11 @@ function Work() {
             linkHref="/Work/Case-Studies/Enhancing-UX-Booking"
           />
         </div>
-       </section>
+      
 
        {/* Project Portfolio */}
-       <h1 className='text-center secondary-blue-color'>Project Portfolio</h1>
+       <h1 style={{marginTop: "150px"}} className='text-center secondary-blue-color'>Project Portfolio</h1>
+       <p className='text-center' style={{marginTop: "-20px"}}>Get to know some of my highlighted work experiences throughout different job titles and responsibilities.</p>
        <div className='horizontal-flex wrap' id='projects'>
             <Card 
               type = "Smaller"
@@ -55,12 +57,45 @@ function Work() {
               position="Creativity & Technology"
               linkHref="/Work/TheRageRoomSpringfield"
               linkText="View Project"
-              imgSrc="Markitfly"
+              imgSrc="RageRoom"
             />
 
 
        </div>
 
+       {/* Website Design & Development */}
+       <h1 style={{marginTop: "150px"}} className='text-center secondary-blue-color'>Website Design & Development</h1>
+       <p className='text-center' style={{marginTop: "-20px"}}>Some current websites I designed and developed.</p>
+       <div className='horizontal-flex wrap' id='websites'>
+            <Card 
+              type = "Smaller"
+              companyName="Digital Medicine Society"
+              position="Website Development"
+              linkHref="/Work/DiMe"
+              linkText="View Project"
+              imgSrc="DiMe"
+            />
+            <Card 
+              type = "Smaller"
+              companyName="Markitfly"
+              position="Creativity & Technology"
+              linkHref="/Work/Markitfly"
+              linkText="View Project"
+              imgSrc="Markitfly"
+            />
+
+            <Card 
+              type = "Smaller"
+              companyName="The Rage Room"
+              position="Creativity & Technology"
+              linkHref="/Work/TheRageRoomSpringfield"
+              linkText="View Project"
+              imgSrc="RageRoom"
+            />
+
+
+       </div>
+       </section>
   </>
   );
 }
