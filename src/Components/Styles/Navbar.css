@@ -15,7 +15,7 @@
     text-decoration: none !important;
 }
 .navbar-link.active {
-    color: var(--neutral-color-white) !important;
+    color: var(--neutral-color-black) !important;
     text-decoration: underline !important;
   }
   
@@ -23,11 +23,19 @@
   display: inline-block;
   padding: 0px 20px;
 }
+/* Default navbar with no background color */
 .otherpage-navbar {
-    background-color: var(--primary-color-pink);
-    border-radius: 0px 0px 50px 50px;
-    z-index: 999 !important;
-  }
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  border-radius: 0px 0px 20px 50px;
+  z-index: 999 !important;
+}
+
+/* When the navbar should have a background */
+.otherpage-navbar.scrolled, .otherpage-navbar:hover  {
+  background-color: var(--primary-color-pink);
+  
+}
 
 .navbar-mobile{
     background-color: var(--primary-color-pink);
