@@ -1,5 +1,6 @@
 body{
   overflow-x: clip !important;
+  scroll-behavior: smooth;
 }
 /* Root CSS Variables */
 :root {

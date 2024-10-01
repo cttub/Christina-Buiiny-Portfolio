@@ -27,10 +27,7 @@ function Markitfly() {
                 
             ]}
             feedback={[
-                { faceColor: "Blue", hairStyle: "Long", feedbackText: (
-                  <span>
-                  “She <b>puts a lot of time and effort</b> into making our <b>website pages look appealing</b> to the eye and also <b>flow smoother for our users.</b>”
-                  </span>)}
+           
             
               ]}
             highlights={
