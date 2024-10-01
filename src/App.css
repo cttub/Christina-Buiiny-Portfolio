@@ -113,6 +113,7 @@ body {
   padding: 0;
   color: var(--text-color-black);
   background-color: var(--background-color-grey);
+  padding-bottom: 200px;
 }
 
 /* Heading styles */

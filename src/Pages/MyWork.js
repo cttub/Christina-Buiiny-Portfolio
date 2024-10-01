@@ -29,6 +29,21 @@ function Work() {
         </div>
        </section>
 
+       {/* Project Portfolio */}
+       <h1 className='text-center secondary-blue-color'>Case Studies</h1>
+       <div className='horizontal-flex wrap' id='projects'>
+            <Card 
+              type = "Smaller"
+              companyName="Digital Medicine Society"
+              position="Website Development"
+              linkHref="/Work/DiMe"
+              linkText="View Project"
+              imgSrc="DiMe"
+            />
+
+
+       </div>
+
   </>
   );
 }

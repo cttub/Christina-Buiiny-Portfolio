@@ -77,6 +77,9 @@ function Home() {
           <Image name="Bunny" />
         </div>
       </section>
+
+
+      
     </>
   );
 }
