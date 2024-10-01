@@ -30,7 +30,7 @@ const Experience = ({ roles = [], achievements = [], feedback = [], highlights }
     return (
         <>
             {/* Roles Section */}
-            <div className='roles-section'>
+            <div className='roles-section' style={{marginBottom: "150px"}}>
                 <h4 className='text-center'>My Role(s)</h4>
                 <div className='roles-container horizontal-flex wrap'>
                     {roles.map((role, index) => (
@@ -45,7 +45,7 @@ const Experience = ({ roles = [], achievements = [], feedback = [], highlights }
             </div>
 
             {/* Achievements Section */}
-            <div className='achievement-section'>
+            <div className='achievement-section' style={{marginBottom: "150px"}}>
                 <h4 className='text-center'>Achievements</h4>
                 <div className='achievements-container horizontal-flex wrap'>
                     {achievements.map((achievement, index) => (
@@ -62,7 +62,7 @@ const Experience = ({ roles = [], achievements = [], feedback = [], highlights }
             </div>
 
             {/* Feedback Section */}
-            <div className='feedback-section'>
+            <div className='feedback-section' style={{marginBottom: "150px"}}>
                 <h4 className='text-center'>Peer Feedback</h4>
                 <div className='feedback-container vertical-flex'>
                     {feedback.map((item, index) => (
@@ -109,6 +109,7 @@ const Experience = ({ roles = [], achievements = [], feedback = [], highlights }
 
             {/* Highlights Section */}
             <div className='highlights-section'>
+                <h4 className='text-center'>Work Highlights</h4>
                 {highlights}
             </div>
         </>

@@ -17,7 +17,7 @@ function DiMe() {
            <Experience 
             roles={[
                 { iconName: "Dev", roleName: "Front-End Dev", duration: "Dec 2023 - Jun 2023" },
-                { iconName: "Star", roleName: "Technical Manager", duration: "Jun 2023 - May 2024", totalDuration: "1 year & 7 months" }
+                { iconName: "Star", roleName: "Technical Manager", duration: "Jun 2023 - May 2024"}
             ]}
             achievements={[
                 { iconName: "Chart", description: "Increased web performance at least by 10% across multiple company websites." },
@@ -27,9 +27,22 @@ function DiMe() {
                 
             ]}
             feedback={[
-                { faceColor: "Blue", hairStyle: "Long", feedbackText: "She puts a lot of time and effort into making our website pages look appealing to the eye and also flow smoother for our users" },
-                { faceColor: "Pink", hairStyle: "Short", feedbackText: "Christina is dedicated to improving UX/UI for a better user experience, also easy to communicate so it makes collaborations at ease." }
-            ]}
+                { faceColor: "Blue", hairStyle: "Long", feedbackText: (
+                  <span>
+                  “She <b>puts a lot of time and effort</b> into making our <b>website pages look appealing</b> to the eye and also <b>flow smoother for our users.</b>”
+                  </span>)},
+                { faceColor: "Pink", hairStyle: "Medium", feedbackText:(
+                  <span>
+                  “Christina is <b>dedicated to improving UX/UI</b> for a better user experience, also <b>easy to communicate</b> so it makes collaborations at ease.”
+
+
+                  </span>)},
+                { faceColor: "Yellow", hairStyle: "Short", feedbackText: (
+                  <span>
+                  “She is always <b>looking for new ways to improve</b> and up level our website and, making her <b>strongest skill subject matter expertise and content creation.</b>”
+                  </span>) }
+            
+              ]}
             highlights={<p>Some highlights or custom HTML here</p>}
             />
 
