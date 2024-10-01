@@ -10,7 +10,7 @@ function Home() {
       {/* Hero Section */}
       <section className='landing hero'>
         <div className='col-lg-4 img-container'>
-          <Image name="LandingImage" alt="LandingImage" className="landing-img" />
+          <Image name="LandingImage" alt="Landing" className="landing-img" />
         </div>
         <div className='col-lg-7'>
           <h1 className='white-color landing-header'>
@@ -35,7 +35,7 @@ function Home() {
           <Button type="button" className="button--primary" href="/Contact">Contact Me</Button>
         </div>
         <div className="image col-lg-5 col-12">
-          <Image name="IPadImage" />
+          <Image name="IPadImage" alt="iPad" />
         </div>
       </section>
 
@@ -66,20 +66,41 @@ function Home() {
 
       {/* Project Portfolio Section */}
       <section className="introduction homepage-section">
-       
-        <div className='col-12 col-lg-6'>
-          <h4 className='primary-pink-color'>Project Portfolio</h4>
-          <h1 className='primary-blue-color heading-with-top-subheading'>See my experience.</h1>
-          <p style={{marginBottom: "40px"}}>Along with my case studies, I foster many skills and experiences through various roles and responsibilities. Check out my Project Portfolio to learn more.</p>
-          <Button type="button" className="button--primary" href="/Work">View Projects</Button>
-        </div>
-        <div className="image col-lg-5 col-12 bunnyHome">
-          <Image name="Bunny" />
+        <div>
+          <h4 className='primary-pink-color text-center'>Project Portfolio</h4>
+          <h1 className='primary-blue-color heading-with-top-subheading text-center'>See my experience.</h1>
+          <p className="text-center" style={{marginBottom: "40px"}}>Along with my case studies, I foster many skills and experiences through various roles and responsibilities.</p>
+          <div className='horizontal-flex wrap' id='projects'>
+            <Card 
+              type="Smaller"
+              companyName="Digital Medicine Society"
+              position="Website Development"
+              linkHref="/Work/DiMe"
+              linkText="View Project"
+              imgSrc="DiMe"
+            />
+            <Card 
+              type="Smaller"
+              companyName="Markitfly"
+              position="Creativity & Technology"
+              linkHref="/Work/Markitfly"
+              linkText="View Project"
+              imgSrc="Markitfly"
+            />
+            <Card 
+              type="Smaller"
+              companyName="The Rage Room"
+              position="Creativity & Technology"
+              linkHref="/Work/TheRageRoomSpringfield"
+              linkText="View Project"
+              imgSrc="RageRoom"
+            />
+          </div>
+          <div className='horizontal-flex' style={{marginTop: "30px"}}>
+            <p>See my full project portfolio <a href='/Work'>here.</a></p>
+          </div>
         </div>
       </section>
-
-
-      
     </>
   );
 }
