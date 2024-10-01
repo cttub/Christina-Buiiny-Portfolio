@@ -36,7 +36,7 @@ const Experience = ({ roles = [], achievements = [], feedback = [], highlights }
                     {roles.map((role, index) => (
                         <div key={index} className='role vertical-flex col-lg-3' style={{ margin: "0px 20px" }}>
                             <Icon name={role.iconName} width="50px" height="50px" alt={role.roleName} />
-                            <p className='meta text-center'>{role.roleName}</p>
+                            <p className='meta text-center primary-blue-color'>{role.roleName}</p>
                             <p className='lead text-center' style={{ marginTop: "-10px" }}>{role.duration}</p>
                         </div>
                     ))}
