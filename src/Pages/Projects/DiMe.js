@@ -4,7 +4,7 @@ import Image from '../../Components/Image';
 import SubPage from '../Templates/SubPage';
 import Icon from '../../Components/Icon';
 import Experience from '../Templates/Experience';
-
+import Card from '../../Components/Card';
 function DiMe() {
   return (
     <section>
@@ -45,13 +45,78 @@ function DiMe() {
               ]}
             highlights={
             
-            <p>Some highlights or custom HTML here</p>
+            <>
+            <div className='highlight-container horizontal-flex wrap' style={{justifyContent: "space-between"}}> 
+                  <div className='highlight-info col-lg-6'>
+                    <h2>DiMe a Day Glossary</h2>
+                    <p>Designed and developed DiMe's glossary for users and subscribers. This involved creating wireframes, facilitating team feedback, integrating the website’s database with Advanced Custom Field, and developing the webpage to align with branding guidelines.</p>
+                    <p>Tools Utilized: YooTheme, Wordpress, Miro, CSS</p>
+                    <p>You can see the live version <a href='https://dimesociety.org/glossary/' target='_blank'>here.</a></p>
+
+                  </div>
+                  <div className='highlight-thumbnail col-lg-5' style={{objectFit: "cover"}}>
+                    <Image name = "DiMeGlossary" width="100%"/>
+                  </div>
+              </div>
+
+
+              <div className='highlight-container horizontal-flex wrap' style={{justifyContent: "space-between", marginTop: "150px"}}> 
+                  <div className='highlight-info col-lg-6'>
+                    <h2>CancerX</h2>
+                    <p>Created an interactive navigation bar by using open-source code from <a href='https://codepen.io/magnificode/pen/bdWYwy' target='_blank'>this CodePen</a> and tweaking it with JavaScript, HTML, and CSS to meet the project's standards and team’s guidelines.</p>
+                    <p>Tools Utilized: Elementor, HTML / CSS, Javascript</p>
+                    <p>You can see the live version <a href='https://dimesociety.org/glossary/' target='_blank'>here.</a></p>
+
+                  </div>
+                  <div className='highlight-thumbnail col-lg-5' style={{height: "500px"}}>
+                    <Image className = "objectFit dime-cancer" name = "DiMeCancer" width="100%" height="100%"/>
+                  </div>
+              </div>
+              
+
+              <div className='highlight-container horizontal-flex wrap' style={{justifyContent: "space-between", marginTop: "150px"}}> 
+                  <div className='highlight-info col-lg-6'>
+                    <h2>Education</h2>
+                    <p>Integrated DiMe Academy’s digital badging system using JavaScript, HTML, and CSS, replacing a bulkier plugin that slowed down the website's performance, and directing users to DiMe's online badging platform, Credly.</p>
+                    <p>WooCommerce, Javascript, CSS, LearnDash API</p>
+                    <p>Only enrolled users can access the live version.</p>
+
+                  </div>
+                  <div className='highlight-thumbnail col-lg-5' style={{objectFit: "cover"}}>
+                    <Image name = "DiMeGlossary" width="100%"/>
+                  </div>
+              </div>
+            </>
 
             }
              totalDuration="1 Year 7 Months"
             />
+          <p style={{marginTop: "150px"}}>This is only an example of projects I have worked on during my experience. If you are curious to know more projects I have worked on, don’t be afraid to <a href='/Contact'>contact me!</a></p>
+          
 
+          <div className='more-projects' style={{marginTop: "150px"}}>
+            <h4 className='text-center'>More Projects</h4>
 
+            <div className='more-project-container horizontal-flex wrap'>
+              <Card
+               type="Smaller"
+               imgSrc="RageRoom"
+               linkHref="/Work/TheRageRoomSpringfield"
+               companyName="The Rage Room"
+               position="Creativity & Technology"
+               linkText= "See Project"
+              />
+              <Card
+               type="Smaller"
+               imgSrc="Markitfly"
+               linkHref="/Work/Markitfly"
+               companyName="Markitfly Media"
+               position="Creativity & Technology"
+               linkText= "See Project"
+              />
+
+            </div>
+          </div>
   </section>
   );
 }
