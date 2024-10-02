@@ -11,7 +11,17 @@ import Markitfly from '../Assets/Images/Markitfly.png';
 import MarkitflyMockup from '../Assets/Images/MarkitflyMockup.png';
 import RageRoomMockup from '../Assets/Images/RageRoomMockup.png';
 import TransformationMockup from '../Assets/Images/TransformationMockup.png';
-
+import RageRoomWebsiteThumbnail from '../Assets/Images/TheRageRoomWebsiteThumbnail.png';
+import RageRoomLogoMockup from  '../Assets/Images/RageRoomLogoMockup.png';
+import RageRoomFullLogo1 from  '../Assets/Images/RageRoomLogoBlack.png';
+import RageRoomFullLogo2 from  '../Assets/Images/RageRoomLogoWhite.png';
+import RageRoomRLogo1 from  '../Assets/Images/RageRoomLogoRBlack.png';
+import RageRoomRLogo2 from  '../Assets/Images/RageRoomLogoRWhite.png';
+import RageGraphic from '../Assets/Images/RageGraphic.png';
+import RageGraphic1 from '../Assets/Images/RageGraphic1.png';
+import RageGraphic2 from '../Assets/Images/RageGraphic2.png';
+import RageGraphic3 from '../Assets/Images/RageGraphic3.png';
+import RageGraphic4 from '../Assets/Images/RageGraphic4.png';
 
 const images = {
     RageRoomMobile,
@@ -25,6 +35,17 @@ const images = {
     MarkitflyMockup,
     RageRoomMockup,
     TransformationMockup,
+    RageRoomWebsiteThumbnail,
+    RageRoomRLogo2,
+    RageRoomRLogo1, 
+    RageRoomFullLogo2,
+    RageRoomFullLogo1,
+    RageRoomLogoMockup,
+    RageGraphic,
+    RageGraphic1,
+    RageGraphic2,
+    RageGraphic3,
+    RageGraphic4
   };
 
 const Image = ({ name, alt, className, width,height }) => {

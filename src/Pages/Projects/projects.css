@@ -1,0 +1,14 @@
+
+.highlight-thumbnail > img{
+    width: 100%;
+    height: 100%;
+    border: solid 4px var(--primary-color-blue);
+    border-radius: 40px;
+}
+.highlight-desc{
+    margin-top: -20px;
+}
+.rage-squareGraphic{
+    width: 40%;
+    margin-bottom: 10px;
+}

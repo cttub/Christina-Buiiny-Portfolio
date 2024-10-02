@@ -225,6 +225,9 @@ section{
 .wrap{
   flex-wrap: wrap;
 }
+.reverse-wrap{
+  flex-wrap: wrap-reverse;
+}
 
 /* Responsive typography adjustments */
 @media (max-width: 1200px) {

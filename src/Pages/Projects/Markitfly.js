@@ -11,7 +11,7 @@ function Markitfly() {
           previousPage="My Work"
           previousPageURL="/Work"
           title= "Markitfly"
-          description=""
+          description="In this role, I enhanced company branding by providing comprehensive website design services, including logo creation and social media post design. I collaborated closely with clients to understand their goals and translated their vision into effective solutions. Through user behavior research and SEO strategies, I improved website visibility and engagement, leading to measurable growth in traffic and conversions."
         />
         <Experience 
             totalDuration= "1+ years"

@@ -19,7 +19,7 @@ function About() {
                   <p>I am driven by opportunities that provide room for continuous learning and personal growth, both in my career and personal interests. I am dedicated to not only delivering high-quality work, but also fostering a collaborative environment where we thrive on each other's success and grow by learning from our experiences.</p>
                   <div className="quick-links horizontal-flex col-12">
                       <a className="link-container vertical-flex">
-                          <Icon name="LinkedIn" height="60px" />
+                          <Icon name="Star" height="60px" />
                           <p className="meta primary-blue-color">LinkedIn</p>
                       </a>
                       <a className="link-container vertical-flex">

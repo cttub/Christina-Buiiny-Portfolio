@@ -15,7 +15,8 @@
 
 .quick-links {
     margin-top: 50px;
-    justify-content: space-around;
+    justify-content: space-around !important;
+   
 }
 
 .link-container {
@@ -23,6 +24,7 @@
     cursor: pointer;
     transition: ease-in-out 0.1s;
     align-items: space-between !important;
+
 }
 
 .link-container:hover {
