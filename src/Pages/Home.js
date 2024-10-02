@@ -17,8 +17,7 @@ function Home() {
             Driving Innovation and Growth Through Seamless Digital Experiences
           </h1>
           <div className='button-side'>
-            <Button type="button" className="button--primary" href="/Contact">Contact Me</Button>
-            <Button type="button" className="button--secondary" href="/Work">View Case Studies</Button>
+          
           </div>
         </div>
       </section>

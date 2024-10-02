@@ -85,7 +85,7 @@ function About() {
 
         <div className="text-center applications">
            <h4>Familiar Applications</h4>
-           <div className="application-container horizontal-flex wrap">
+           <div className="application-container horizontal-flex wrap" style={{justifyContent: "space-between"}}>
             <p className="col-3">Figma</p>
             <p className="col-3">HTML / CSS</p>
             <p className="col-3">Wordpress</p>
@@ -106,11 +106,68 @@ function About() {
         <div className='education-certificates'>
           <h4 className='text-center'>Education & Certificates</h4>
 
-          <div className='education-container'>
+          <div className='education-container horizontal-flex'>
+              <div className='education horizontal-flex'>
+                
+                 <Image className='education-img' name="UNO" width="100%"/> 
+             
+                <div className='education-info'>
+                  <h5>Bachelor’s of Computer Science</h5>
+                  <p className='lead' style={{marginTop: "-10px"}}>University of New Orleans</p>
+                </div>
 
+              </div>
           </div>
 
-          <div className='certificates-container'>
+
+
+          <div className='certificates-container horizontal-flex wrap' style={{marginTop: "60px"}}>
+
+              <div className='certificate' >
+                <Image className="certification-img" name = "FigmaCert"/>
+                <div className='certification-info'>
+                  <h5 className='meta'>Figma Training</h5>
+                  <p className='lead' style={{marginTop: "-20px"}}>SaaS Design</p>
+                  <p className='lead' style={{marginTop: "-10px", marginBottom: "0px"}}>Jun 2024</p>
+                  <a href='https://course.figmatraining.com/certificates/bwxhovorh5' target='_blank' >See Certification</a>
+                </div>
+              </div>
+        
+
+              <div className='certificate'>
+                <Image className="certification-img" name = "FreeCamp"/>
+                <div className='certification-info'>
+                  <h5 className='meta'>Web Design</h5>
+                  <p className='lead' style={{marginTop: "-20px"}}>freecodecamp</p>
+                  <p className='lead' style={{marginTop: "-10px", marginBottom: "0px"}}>Jun 2024</p>
+                  <a href='https://www.freecodecamp.org/certification/buiiny/responsive-web-design' target='_blank' >See Certification</a>
+                </div>
+              </div>
+
+
+              <div className='certificate'>
+                <Image className="certification-img" name = "Google"/>
+                <div className='certification-info'>
+                  <h5 className='meta'>UX Design</h5>
+                  <p className='lead' style={{marginTop: "-20px"}}>Google</p>
+                  <p className='lead' style={{marginTop: "-10px", marginBottom: "0px"}}>July 2024</p>
+                  <a href='https://coursera.org/share/ea9a5c75bd967ce826fa872cdff162f6' target='_blank' >See Certification</a>
+                </div>
+              </div>
+
+
+              <div className='certificate'>
+                <Image className="certification-img" name = "TestDome"/>
+                <div className='certification-info'>
+                  <h5 className='meta'>Attention to Detail</h5>
+                  <p className='lead' style={{marginTop: "-20px"}}>TestDome</p>
+                  <p className='lead' style={{marginTop: "-10px", marginBottom: "0px"}}>Aug 2024</p>
+                  <a href='https://www.testdome.com/certificates/223c6e9440d74843a4ccb040ba112ba2' target='_blank' >See Certification</a>
+                </div>
+              </div>
+
+
+
 
           </div>
 

@@ -34,9 +34,17 @@ import DiMeBadging from '../Assets/Images/DiMeBadging.png';
 import DiMeCancer from '../Assets/Images/DiMeCancerX.png';
 import DiMeGlossary from '../Assets/Images/DiMeGlossary.png';
 
-
-
+import UNO from '../Assets/Images/UNO.png';
+import TestDome from '../Assets/Images/TestDome.png';
+import FigmaCert from '../Assets/Images/FigmaCert.png';
+import Google from '../Assets/Images/Google.png';
+import FreeCamp from  '../Assets/Images/FreeCamp.png';
 const images = {
+    UNO,
+    FreeCamp,
+    TestDome,
+    FigmaCert,
+    Google,
     MarkitflyLogo1,
     MarkitflyLogo2,
     MarkitflyLogo3,

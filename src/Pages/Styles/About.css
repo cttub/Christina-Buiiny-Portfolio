@@ -58,12 +58,44 @@
     text-align: left;
 }
 
+.education{
+    border: solid var(--primary-color-blue) 4px;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.education-img, .certification-img{
+    max-width: 100px;
+    margin-right: 20px;
+}
+.certification-img{
+    border: solid 3px var(--neutral-color-grey);
+    border-radius: 10px;
+   
+}
+
+.certificate{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    padding: 10px;
+    width: 400px;
+
+}
+
+@media (min-width: 900px) {
+    .certificates-container{
+        justify-content: space-between !important;
+    }
+    
+}
 @media (max-width: 900px) {
     .about-information {
         flex-direction: column !important;
         justify-content: center;
         align-items: center;
     }
+    
 
     .information > h1 {
         text-align: center;
