@@ -32,13 +32,14 @@ function RageRoom() {
             highlights={
             <>
             <div className='highlight-container horizontal-flex reverse-wrap' style={{justifyContent: "space-between"}}> 
-                <div className='highlight-info col-lg-5'>
+                <div className='highlight-info col-lg-6'>
                   <h2>Website Development</h2>
                   <p>Designed and developed The Rage Room’s website to upgrade from their limited-feature Fareharbor site. This new website offers enhanced customization for the user experience while maintaining their existing branding.</p>
                   <p>Tools Utilized: Wordpress, YooTheme, HTML, CSS</p>
+                  <p>You can see the live version <a href='https://therageroomspringfield.com/' target='_blank'>here.</a></p>
 
                 </div>
-                <div className='highlight-thumbnail col-lg-6' style={{objectFit: "cover"}}>
+                <div className='highlight-thumbnail col-lg-5' style={{objectFit: "cover"}}>
                   <Image name = "RageRoomWebsiteThumbnail" width="100%"/>
                 </div>
             </div>

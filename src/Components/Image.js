@@ -23,7 +23,29 @@ import RageGraphic2 from '../Assets/Images/RageGraphic2.png';
 import RageGraphic3 from '../Assets/Images/RageGraphic3.png';
 import RageGraphic4 from '../Assets/Images/RageGraphic4.png';
 
+import MarkitflyLogoMockup from '../Assets/Images/MarkitflyLogoMockup.png';
+import MarkitflyLogo1 from '../Assets/Images/MarkitflyLogo1.svg';
+import MarkitflyLogo2 from '../Assets/Images/MarkitflyLogo2.svg';
+import MarkitflyLogo3 from '../Assets/Images/MarkitflyLogo3.svg';
+import MarkitflyLogo4 from '../Assets/Images/MarkitflyLogo4.svg';
+import MarkitflyWebsite from '../Assets/Images/MarkitflyWebsite.png';
+
+import DiMeBadging from '../Assets/Images/DiMeBadging.png';
+import DiMeCancer from '../Assets/Images/DiMeCancerX.png';
+import DiMeGlossary from '../Assets/Images/DiMeGlossary.png';
+
+
+
 const images = {
+    MarkitflyLogo1,
+    MarkitflyLogo2,
+    MarkitflyLogo3,
+    MarkitflyLogo4,
+    MarkitflyLogoMockup,
+    MarkitflyWebsite,
+    DiMeGlossary,
+    DiMeBadging,
+    DiMeCancer,
     RageRoomMobile,
     LandingImage,
     PFP,
