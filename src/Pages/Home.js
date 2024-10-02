@@ -96,7 +96,7 @@ function Home() {
             />
           </div>
           <div className='horizontal-flex' style={{marginTop: "30px"}}>
-            <p>See my full project portfolio <a href='/Work'>here.</a></p>
+            <p>See my full project portfolio <a href='/Work/#project-portfolio'>here.</a></p>
           </div>
         </div>
       </section>

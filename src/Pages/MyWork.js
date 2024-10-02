@@ -31,7 +31,7 @@ function Work() {
       
 
        {/* Project Portfolio */}
-       <h1 style={{marginTop: "150px"}} className='text-center secondary-blue-color'>Project Portfolio</h1>
+       <h1 style={{marginTop: "150px"}} className='text-center secondary-blue-color' id='project-portfolio'>Project Portfolio</h1>
        <p className='text-center' style={{marginTop: "-20px"}}>Get to know some of my highlighted work experiences throughout different job titles and responsibilities.</p>
        <div className='horizontal-flex wrap' id='projects'>
             <Card 
