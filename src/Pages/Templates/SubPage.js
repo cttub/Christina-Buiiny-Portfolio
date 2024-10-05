@@ -7,7 +7,7 @@ const SubPage = ({ title, description, previousPageURL, previousPage }) => {
 
   return (
     <>
-      <Link to={previousPageURL} style={{ textDecoration: 'none', color: 'inherit' }}>
+      <Link to= {previousPageURL} style={{ textDecoration: 'none', color: 'inherit' }}>
         <div style={{ display: 'flex', alignItems: 'center'}}>
           <span style={{ display: 'flex', marginRight: '20px' }}>
             <svg
