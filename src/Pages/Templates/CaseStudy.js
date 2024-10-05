@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import Button from '../../Components/Button';
 import Image from '../../Components/Image';
+import { Link, useLocation } from 'react-router-dom';
+
 import './template.css';
 const CaseStudy = ({ title, description, buttonText, pdf }) => {
 
@@ -9,7 +11,7 @@ const CaseStudy = ({ title, description, buttonText, pdf }) => {
 
   return (
     <div className='case-study-container'>
-      <a href="/Work" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <Link to="/Work" style={{ textDecoration: 'none', color: 'inherit' }}>
         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '70px' }}>
           <span style={{ display: 'flex', marginRight: '20px' }}>
             <svg
@@ -28,7 +30,7 @@ const CaseStudy = ({ title, description, buttonText, pdf }) => {
           </span>
           <p>Back to Case Studies</p>
         </div>
-      </a>
+      </Link>
       <h2>{title}</h2>
       <p>{description}</p>
       <div className='case-btn-container horizontal-flex wrap'>
