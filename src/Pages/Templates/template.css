@@ -1,0 +1,17 @@
+
+.case-study-btn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+@media (min-width: 959px) {
+    .case-btn-container{
+        justify-content: flex-start !important;
+    } 
+    .case-study-btn{
+        margin-right: 20px;
+        width: auto;
+    }
+ 
+}

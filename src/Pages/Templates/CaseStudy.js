@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Button from '../../Components/Button';
 import Image from '../../Components/Image';
+import './template.css';
+const CaseStudy = ({ title, description, buttonText, pdf }) => {
 
-const CaseStudy = ({ title, description, buttonText, pdf}) => {
+  const pdfURL = `https://drive.google.com/file/d/${pdf}/preview`;
+  const pdfDownload = `https://drive.google.com/uc?id=${pdf}&export=download`;
+
   return (
     <div className='case-study-container'>
-         <a href= "/Work/#case-studies" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <a href="/Work/#case-studies" style={{ textDecoration: 'none', color: 'inherit' }}>
         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '70px' }}>
           <span style={{ display: 'flex', marginRight: '20px' }}>
             <svg
@@ -25,13 +29,23 @@ const CaseStudy = ({ title, description, buttonText, pdf}) => {
           <p>Back to Case Studies</p>
         </div>
       </a>
-        <h2>{title}</h2>
-        <p>CASE STUDY TEMPLATE</p>
-        <p>{description}</p>
-     
+      <h2>{title}</h2>
+      <p>{description}</p>
+      <div className='case-btn-container horizontal-flex wrap'>
+          <Button className='button--blue case-study-btn' href={pdfDownload}>Download PDF</Button>
+          <Button className='button--blue case-study-btn' target="_blank" href = {pdfURL}>View Fullscreen</Button>
+
+        </div>
+      <iframe
+        src={pdfURL}
+        width="100%"
+        height="1000px"
+        allowFullScreen
+        style={{ border: '1px solid #ccc', marginTop: '20px' }}
+        title="PDF Viewer"
+      />
     </div>
   );
-}
+};
 
 export default CaseStudy;
-
