@@ -9,7 +9,7 @@ const CaseStudy = ({ title, description, buttonText, pdf }) => {
 
   return (
     <div className='case-study-container'>
-      <a href="/Work/#case-studies" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <a href="/Work" style={{ textDecoration: 'none', color: 'inherit' }}>
         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '70px' }}>
           <span style={{ display: 'flex', marginRight: '20px' }}>
             <svg

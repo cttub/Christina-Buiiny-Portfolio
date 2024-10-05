@@ -17,7 +17,7 @@ function Work() {
      
         <h1 className='text-center secondary-blue-color'>Case Studies</h1>
         
-        <div className='horizontal-flex wrap' id='case-studies'>
+        <div className='horizontal-flex wrap'>
           <Card
             type = "Big Vertical"
             imgSrc = "RageRoomMobile"
