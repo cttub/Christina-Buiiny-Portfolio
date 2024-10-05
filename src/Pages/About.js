@@ -18,16 +18,16 @@ function About() {
                   <h1>Hello! I am Christina</h1>
                   <p>I am driven by opportunities that provide room for continuous learning and personal growth, both in my career and personal interests. I am dedicated to not only delivering high-quality work, but also fostering a collaborative environment where we thrive on each other's success and grow by learning from our experiences.</p>
                   <div className="quick-links horizontal-flex col-12">
-                      <a className="link-container vertical-flex">
+                      <a className="link-container vertical-flex" href='https://www.linkedin.com/in/cttub/' target='_blank'>
                           <Icon name="Star" height="60px" />
                           <p className="meta primary-blue-color">LinkedIn</p>
                       </a>
-                      <a className="link-container vertical-flex">
+                      <a className="link-container vertical-flex" href='https://github.com/cttub' target='_blank'>
                           <Icon name="GitHub" height="60px" />
                           <p className="meta primary-blue-color">GitHub</p>
                       </a>
                   
-                      <a className="link-container vertical-flex">
+                      <a className="link-container vertical-flex" href='https://drive.google.com/file/d/1GaaWS7DSOLnN1tvaU0NuTpxGqk2Szd0P/view?usp=sharing' target='_blank'>
                           <Icon name="Heart" height="60px" />
                           <p className="meta primary-blue-color">Resume</p>
                       </a>
