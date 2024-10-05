@@ -3,10 +3,12 @@ import Button from '../../Components/Button';
 import Image from '../../Components/Image';
 
 const SubPage = ({ title, description, previousPageURL, previousPage }) => {
+  const hasContent = title || description; // Check if either title or description exists
+
   return (
     <>
       <a href={previousPageURL} style={{ textDecoration: 'none', color: 'inherit' }}>
-        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '70px' }}>
+        <div style={{ display: 'flex', alignItems: 'center'}}>
           <span style={{ display: 'flex', marginRight: '20px' }}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -26,10 +28,12 @@ const SubPage = ({ title, description, previousPageURL, previousPage }) => {
         </div>
       </a>
 
-      <div style={{marginBottom: "100px"}}>
-        <h1 style={{ marginBottom: '-10px' }}>{title}</h1>
-        <p>{description}</p>
-      </div>
+      {hasContent && (
+        <div style={{ marginBottom: hasContent ? '100px' : '0' }}> {/* Conditionally set margin */}
+          {title && <h1 style={{ marginBottom: '-10px' }}>{title}</h1>}
+          {description && <p>{description}</p>}
+        </div>
+      )}
     </>
   );
 };

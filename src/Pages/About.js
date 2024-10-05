@@ -26,10 +26,7 @@ function About() {
                           <Icon name="GitHub" height="60px" />
                           <p className="meta primary-blue-color">GitHub</p>
                       </a>
-                      <a className="link-container vertical-flex">
-                          <Icon name="Mail" height="60px" />
-                          <p className="meta primary-blue-color">Email</p>
-                      </a>
+                  
                       <a className="link-container vertical-flex">
                           <Icon name="Heart" height="60px" />
                           <p className="meta primary-blue-color">Resume</p>
