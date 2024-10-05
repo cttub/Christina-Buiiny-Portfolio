@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.34cc6744.css",
-    "main.js": "/static/js/main.994e93c5.js",
+    "main.js": "/static/js/main.508294df.js",
     "static/js/453.4c64b689.chunk.js": "/static/js/453.4c64b689.chunk.js",
     "static/media/RageRoomBooking.pdf": "/static/media/RageRoomBooking.ff460253e3b895e0e476.pdf",
     "static/media/RageRoomMobile.png": "/static/media/RageRoomMobile.2182e5c9a6a47ceeaea3.png",
@@ -71,11 +71,11 @@
     "static/media/Bubble.svg": "/static/media/Bubble.9b303879c39ce528c64f405481b7f1b8.svg",
     "static/media/Bubble_White.svg": "/static/media/Bubble_White.7fe1a9dc6ffd15755fc21bb0aeaa0e76.svg",
     "main.34cc6744.css.map": "/static/css/main.34cc6744.css.map",
-    "main.994e93c5.js.map": "/static/js/main.994e93c5.js.map",
+    "main.508294df.js.map": "/static/js/main.508294df.js.map",
     "453.4c64b689.chunk.js.map": "/static/js/453.4c64b689.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34cc6744.css",
-    "static/js/main.994e93c5.js"
+    "static/js/main.508294df.js"
   ]
 }
