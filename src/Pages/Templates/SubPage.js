@@ -1,13 +1,13 @@
 import React from 'react';
 import Button from '../../Components/Button';
 import Image from '../../Components/Image';
-
+import { Link, useLocation } from 'react-router-dom';
 const SubPage = ({ title, description, previousPageURL, previousPage }) => {
   const hasContent = title || description; // Check if either title or description exists
 
   return (
     <>
-      <a href={previousPageURL} style={{ textDecoration: 'none', color: 'inherit' }}>
+      <Link to={previousPageURL} style={{ textDecoration: 'none', color: 'inherit' }}>
         <div style={{ display: 'flex', alignItems: 'center'}}>
           <span style={{ display: 'flex', marginRight: '20px' }}>
             <svg
@@ -26,7 +26,7 @@ const SubPage = ({ title, description, previousPageURL, previousPage }) => {
           </span>
           <p>Back to {previousPage}</p>
         </div>
-      </a>
+      </Link>
 
       {hasContent && (
         <div style={{ marginBottom: hasContent ? '100px' : '0' }}> {/* Conditionally set margin */}
