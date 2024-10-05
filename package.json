@@ -1,7 +1,7 @@
 {
   "name": "christina-portfolio",
   "version": "0.1.0",
-  "homepage": "www.christinabui.net",
+  "homepage": "https://www.christinabui.net",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
