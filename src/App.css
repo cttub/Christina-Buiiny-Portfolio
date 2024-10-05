@@ -76,7 +76,9 @@ body{
 .secondary-blue-color{
   color: var(--secondary-color-blue);
 }
-
+.success-color{
+  color: var(--alert-shade-success);
+}
 /* Font-face definitions */
 @font-face {
   font-family: 'Uniform';

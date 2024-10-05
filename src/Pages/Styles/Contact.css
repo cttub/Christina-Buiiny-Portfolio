@@ -1,0 +1,38 @@
+
+
+.contact-card{
+    border: solid var(--primary-color-blue);
+    border-radius: 10px;
+    color: var(--primary-color-blue) !important;
+    text-decoration: none !important;
+    padding: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+
+
+}
+.contact-card > .contact-btn{
+    width: 100%;
+}
+.contact-btn{
+    margin-bottom: 10px;
+
+}
+
+@media (min-width: 959px) {
+    .contact-card-container{
+        justify-content: space-between !important;
+        
+    }
+    .contact-card{
+        width: 40%;
+        max-height: 400px;
+
+        
+    }
+    .contact-card > .contact-btn{
+        width: auto;
+    }
+   
+    
+}
