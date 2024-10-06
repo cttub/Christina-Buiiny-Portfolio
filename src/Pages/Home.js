@@ -3,6 +3,7 @@ import Button from '../Components/Button';
 import './Styles/Home.css';
 import Card from '../Components/Card';
 import Image from '../Components/Image';
+import { Link, useLocation } from 'react-router-dom';
 
 function Home() {
   return (
@@ -64,7 +65,7 @@ function Home() {
       </section>
 
       {/* Project Portfolio Section */}
-      <section className="introduction homepage-section">
+      <section className="">
         <div>
           <h4 className='primary-pink-color text-center'>Project Portfolio</h4>
           <h1 className='primary-blue-color heading-with-top-subheading text-center'>See my experience.</h1>
@@ -96,7 +97,7 @@ function Home() {
             />
           </div>
           <div className='horizontal-flex' style={{marginTop: "30px"}}>
-            <p>See my full project portfolio <a href='/Work/#project-portfolio'>here.</a></p>
+            <p>See my full project portfolio <Link to='/Work'>here.</Link></p>
           </div>
         </div>
       </section>
