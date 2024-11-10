@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.34cc6744.css",
-    "main.js": "/static/js/main.43038053.js",
+    "main.css": "/static/css/main.9200733b.css",
+    "main.js": "/static/js/main.683d3341.js",
     "static/js/453.4c64b689.chunk.js": "/static/js/453.4c64b689.chunk.js",
-    "static/media/RageRoomBooking.pdf": "/static/media/RageRoomBooking.ff460253e3b895e0e476.pdf",
     "static/media/RageRoomMobile.png": "/static/media/RageRoomMobile.2182e5c9a6a47ceeaea3.png",
+    "static/media/Enhancing UX booking with design laws and principles..png": "/static/media/Enhancing UX booking with design laws and principles..85a73a0fbd7ab4b321d1.png",
     "static/media/MarkitflyLogoMockup.png": "/static/media/MarkitflyLogoMockup.1957e99a5c845f5dbc3e.png",
     "static/media/RageRoomLogoMockup.png": "/static/media/RageRoomLogoMockup.1868e82b52aabf81fd4c.png",
     "static/media/TransformationMockup.png": "/static/media/TransformationMockup.b16ab14232d8004dd327.png",
+    "static/media/Optimizing UX Through Strategic Design Adjustments.png": "/static/media/Optimizing UX Through Strategic Design Adjustments.d86d3dd40b58dbcdc3cb.png",
     "static/media/RageGraphic.png": "/static/media/RageGraphic.3620649610d4e5cccd79.png",
     "static/media/RageRoomMockup.png": "/static/media/RageRoomMockup.64ce4602eaa3269fb86f.png",
     "static/media/DiMe.png": "/static/media/DiMe.6bcd00d1bc66ffc12a69.png",
@@ -17,6 +18,7 @@
     "static/media/RageGraphic4.png": "/static/media/RageGraphic4.26ac0f7e0aadab647703.png",
     "static/media/TheRageRoomWebsiteThumbnail.png": "/static/media/TheRageRoomWebsiteThumbnail.968ae735ec874fd37a3d.png",
     "static/media/RageGraphic1.png": "/static/media/RageGraphic1.8287df50559214ec650c.png",
+    "static/media/SquawkBox.png": "/static/media/SquawkBox.940cc48b43d7c50ad5b6.png",
     "static/media/MarkitflyMockup.png": "/static/media/MarkitflyMockup.6cde9006e8298989bba7.png",
     "static/media/DiMeGlossary.png": "/static/media/DiMeGlossary.aaeb198b68da6e5bab29.png",
     "static/media/MarkitflyWebsite.png": "/static/media/MarkitflyWebsite.56cf3d1ccd18c869d8d6.png",
@@ -70,12 +72,12 @@
     "static/media/Mail_White.svg": "/static/media/Mail_White.8c7d3dba0593df8f698a02b281ae8234.svg",
     "static/media/Bubble.svg": "/static/media/Bubble.9b303879c39ce528c64f405481b7f1b8.svg",
     "static/media/Bubble_White.svg": "/static/media/Bubble_White.7fe1a9dc6ffd15755fc21bb0aeaa0e76.svg",
-    "main.34cc6744.css.map": "/static/css/main.34cc6744.css.map",
-    "main.43038053.js.map": "/static/js/main.43038053.js.map",
+    "main.9200733b.css.map": "/static/css/main.9200733b.css.map",
+    "main.683d3341.js.map": "/static/js/main.683d3341.js.map",
     "453.4c64b689.chunk.js.map": "/static/js/453.4c64b689.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34cc6744.css",
-    "static/js/main.43038053.js"
+    "static/css/main.9200733b.css",
+    "static/js/main.683d3341.js"
   ]
 }
