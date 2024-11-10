@@ -25,7 +25,16 @@ function Work() {
             description= "In this case study, I will detail the iterative redesign of a rage room booking experience that aimed to enhance user engagement and streamline the booking process."
             companyType= "Website UX Design"
             linkText= "View Case Study"
-            linkHref="/Work/Case-Studies/Enhancing-UX-Booking"
+            linkHref="/Work/Case-Studies/Enhancing-UX-Booking-RageRoom"
+          />
+          <Card
+            type = "Big Vertical"
+            imgSrc = "SquawkBox"
+            companyName= "Personal Project"
+            description= "I conducted a UX/UI critique of Squawk Box to improve visual consistency, clarity, and usability. I conducted a UX/UI critique of Squawk Box to improve visual consistency, clarity, and usability."
+            companyType= "Website UX Design"
+            linkText= "View Case Study"
+            linkHref="/Work/Case-Studies/Strategic-Design-Squawk"
           />
         </div>
       

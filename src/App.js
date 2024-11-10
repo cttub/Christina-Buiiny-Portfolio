@@ -9,6 +9,7 @@ import DiMe from './Pages/Projects/DiMe.js';
 import Markitfly from './Pages/Projects/Markitfly.js';
 import RageRoom from './Pages/Projects/RageRoom.js';
 import RageRoomBookingCaseStudy from './Pages/CaseStudies/RageRoomBookingCaseStudy.js';
+import SquawkBox from './Pages/CaseStudies/SquawkBox.js';
 import StyleSheet from './Pages/StyleSheet.js';
 import Navbar from './Components/Navbar'; // Import Navbar
 import ScrollToTop from './Components/ScrollToTop.js';
@@ -25,7 +26,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/Work" element={<Work />} />
           <Route path="/Contact" element={<Contact />} />
-          <Route path="/Work/Case-Studies/Enhancing-UX-Booking" element={<RageRoomBookingCaseStudy />} />
+          <Route path="/Work/Case-Studies/Enhancing-UX-Booking-RageRoom" element={<RageRoomBookingCaseStudy />} />
+          <Route path="/Work/Case-Studies/Strategic-Design-Squawk" element={<SquawkBox />} />
           <Route path="/Work/DiMe" element={<DiMe />} />
           <Route path="/Work/Markitfly" element={<Markitfly />} />
           <Route path="/Work/TheRageRoomSpringfield" element={<RageRoom />} />

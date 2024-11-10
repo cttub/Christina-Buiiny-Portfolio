@@ -5,6 +5,16 @@
     width: 100%;
     text-align: center;
 }
+@media screen and (max-width: 1000px) {
+    .case-study-section{
+        padding: 0px !important;
+    }
+    .caseStudyInfo{
+        padding: 100px;
+    }
+    
+}
+
 @media (min-width: 959px) {
     .case-btn-container{
         justify-content: flex-start !important;

@@ -1,16 +1,16 @@
 import React from 'react';
 import Button from '../../Components/Button';
 import CaseStudy from '../Templates/CaseStudy';
-import PDF from '../../Assets/Case Studies/RageRoomBooking.pdf';
-
+import pdfImg from '../../Assets/Case Studies/Enhancing UX booking with design laws and principles..png'
 
 function RageRoomBookingCaseStudy() {
   return (
-    <section>
+    <section className='case-study-section'>
        
         <CaseStudy
         title ="Enhancing UX booking with design laws and principles."
         pdf = "1KWQFBoDcBt4r_YW11BswUu3ofV_dESpG"
+        pdfImg={pdfImg}
         description={
         <>
         <p>In this case study, I will detail the iterative redesign of a rage room booking experience that 

@@ -60,6 +60,16 @@ function Home() {
             linkHref="/Work/Case-Studies/Enhancing-UX-Booking"
             linkText="View Case Study"
           />
+          <Card
+            type = "Small"
+            imgSrc = "SquawkBox"
+            companyName= "Personal Project"
+            position="UX Designer"
+            title = "Optimizing UX Through Strategic Design Adjustments"
+            companyType= "Website UX Design"
+            linkText= "View Case Study"
+            linkHref="/Work/Case-Studies/Strategic-Design-Squawk"
+          />
         </div>
         <Button type="button" className="button--blue" href="/Work">View all Case Studies</Button>
       </section>

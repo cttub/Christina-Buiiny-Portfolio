@@ -4,13 +4,14 @@ import Image from '../../Components/Image';
 import { Link, useLocation } from 'react-router-dom';
 
 import './template.css';
-const CaseStudy = ({ title, description, buttonText, pdf }) => {
+const CaseStudy = ({ title, description, buttonText, pdf, pdfImg}) => {
 
-  const pdfURL = `https://drive.google.com/file/d/${pdf}/preview`;
+  const pdfURL = `https://drive.google.com/file/d/${pdf}/view`;
   const pdfDownload = `https://drive.google.com/uc?id=${pdf}&export=download`;
 
   return (
-    <div className='case-study-container'>
+    <>
+    <div className='caseStudyInfo'>
       <Link to="/Work" style={{ textDecoration: 'none', color: 'inherit' }}>
         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '70px' }}>
           <span style={{ display: 'flex', marginRight: '20px' }}>
@@ -38,15 +39,13 @@ const CaseStudy = ({ title, description, buttonText, pdf }) => {
           <Button className='button--blue case-study-btn' target="_blank" href = {pdfURL}>View Fullscreen</Button>
 
         </div>
-      <iframe
-        src={pdfURL}
-        width="100%"
-        height="1000px"
-        allowFullScreen
-        style={{ border: '1px solid #ccc', marginTop: '20px' }}
-        title="PDF Viewer"
-      />
+
     </div>
+    <div className="caseStudyContainer">
+    <img className= "caseStudyImg" src={pdfImg} width={"100%"}/>
+    </div>
+
+    </>
   );
 };
 

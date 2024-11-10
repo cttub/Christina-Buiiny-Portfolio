@@ -29,6 +29,7 @@ import MarkitflyLogo2 from '../Assets/Images/MarkitflyLogo2.svg';
 import MarkitflyLogo3 from '../Assets/Images/MarkitflyLogo3.svg';
 import MarkitflyLogo4 from '../Assets/Images/MarkitflyLogo4.svg';
 import MarkitflyWebsite from '../Assets/Images/MarkitflyWebsite.png';
+import SquawkBox from '../Assets/Images/SquawkBox.png';
 
 import DiMeBadging from '../Assets/Images/DiMeBadging.png';
 import DiMeCancer from '../Assets/Images/DiMeCancerX.png';
@@ -40,6 +41,7 @@ import FigmaCert from '../Assets/Images/FigmaCert.png';
 import Google from '../Assets/Images/Google.png';
 import FreeCamp from  '../Assets/Images/FreeCamp.png';
 const images = {
+   SquawkBox,
     UNO,
     FreeCamp,
     TestDome,
