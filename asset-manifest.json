@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9200733b.css",
-    "main.js": "/static/js/main.96d727c7.js",
+    "main.js": "/static/js/main.9753bd85.js",
     "static/js/453.4c64b689.chunk.js": "/static/js/453.4c64b689.chunk.js",
     "static/media/RageRoomMobile.png": "/static/media/RageRoomMobile.2182e5c9a6a47ceeaea3.png",
     "static/media/Enhancing UX booking with design laws and principles..png": "/static/media/Enhancing UX booking with design laws and principles..85a73a0fbd7ab4b321d1.png",
@@ -73,11 +73,11 @@
     "static/media/Bubble.svg": "/static/media/Bubble.9b303879c39ce528c64f405481b7f1b8.svg",
     "static/media/Bubble_White.svg": "/static/media/Bubble_White.7fe1a9dc6ffd15755fc21bb0aeaa0e76.svg",
     "main.9200733b.css.map": "/static/css/main.9200733b.css.map",
-    "main.96d727c7.js.map": "/static/js/main.96d727c7.js.map",
+    "main.9753bd85.js.map": "/static/js/main.9753bd85.js.map",
     "453.4c64b689.chunk.js.map": "/static/js/453.4c64b689.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9200733b.css",
-    "static/js/main.96d727c7.js"
+    "static/js/main.9753bd85.js"
   ]
 }
