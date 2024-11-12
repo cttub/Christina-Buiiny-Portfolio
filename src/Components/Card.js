@@ -2,6 +2,8 @@ import React from 'react';
 import './Styles/Card.css'; 
 import Button from './Button'; 
 import Image from './Image';
+import { Link } from 'react-router-dom';
+
 const Card = ({
   type, 
   imgSrc, 
@@ -35,8 +37,8 @@ const Card = ({
           <div className="bottom">
             <p className="meta position">{position}</p>
             <h5 className="title">{title}</h5>
-            <a  className="link" href={linkHref}>{linkText}</a>
-          </div>
+            <Link className="link" to={linkHref}>{linkText}</Link>
+            </div>
         </div>
       )}
       {type === 'Big Vertical' && (
