@@ -57,7 +57,7 @@ function Home() {
             companyName="The Rage Room"
             title="Enhancing UX booking with design laws and principles."
             position="Web Design & Developer"
-            linkHref="/Work/Case-Studies/Enhancing-UX-Booking"
+            linkHref="/Work/Case-Studies/Enhancing-UX-Booking-RageRoom"
             linkText="View Case Study"
           />
           <Card
@@ -70,6 +70,7 @@ function Home() {
             linkText= "View Case Study"
             linkHref="/Work/Case-Studies/Strategic-Design-Squawk"
           />
+      
         </div>
         <Button type="button" className="button--blue" href="/Work">View all Case Studies</Button>
       </section>
