@@ -72,41 +72,7 @@ function Work() {
 
        </div>
 
-       {/* Website Design & Development */}
-       <h1 style={{marginTop: "150px"}} className='text-center secondary-blue-color'>Website Design & Development</h1>
-       <p className='text-center' style={{marginTop: "-20px"}}>Some current websites I designed and developed.</p>
-       <div className='horizontal-flex wrap' id='websites'>
-            <Card 
-              type = "Smaller"
-              companyName="Markitfly"
-              position="Marketing Agency"
-              linkHref="https://markitfly.com/"
-              linkText="View Website"
-              imgSrc="MarkitflyMockup"
-              target="_blank"
-            />
-            <Card 
-              type = "Smaller"
-              companyName="Transformation"
-              position="Lawn & Landscaping"
-              linkHref="https://transformlandmo.com/"
-              linkText="View Website"
-              imgSrc="TransformationMockup"
-              target="_blank"
-            />
-
-            <Card 
-              type = "Smaller"
-              companyName="The Rage Room"
-              position="Creativity & Technology"
-              linkHref="https://therageroomspringfield.com/"
-              linkText="View Website"
-              imgSrc="RageRoomMockup"
-              target="_blank"
-            />
-
-
-       </div>
+     
        </section>
   </>
   );
