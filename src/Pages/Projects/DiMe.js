@@ -65,7 +65,7 @@ function DiMe() {
                     <h2>CancerX</h2>
                     <p>Created an interactive navigation bar by using open-source code from <a href='https://codepen.io/magnificode/pen/bdWYwy' target='_blank'>this CodePen</a> and tweaking it with JavaScript, HTML, and CSS to meet the project's standards and team’s guidelines.</p>
                     <p>Tools Utilized: Elementor, HTML / CSS, Javascript</p>
-                    <p>You can see the live version <a href='https://cancerx.health/health-system-core-competencies-guide/' target='_blank'>here.</a></p>
+                    
 
                   </div>
                   <div className='highlight-thumbnail col-lg-5' style={{height: "500px"}}>
