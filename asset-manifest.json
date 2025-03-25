@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.9200733b.css",
-    "main.js": "/static/js/main.ef0bc998.js",
+    "main.js": "/static/js/main.8f482283.js",
     "static/js/453.4c64b689.chunk.js": "/static/js/453.4c64b689.chunk.js",
     "static/media/RageRoomMobile.png": "/static/media/RageRoomMobile.2182e5c9a6a47ceeaea3.png",
-    "static/media/Enhancing UX booking with design laws and principles..png": "/static/media/Enhancing UX booking with design laws and principles..85a73a0fbd7ab4b321d1.png",
+    "static/media/Enhancing UX booking with design laws and principles..png": "/static/media/Enhancing UX booking with design laws and principles..c274d0a3f1a64ad3a957.png",
     "static/media/MarkitflyLogoMockup.png": "/static/media/MarkitflyLogoMockup.1957e99a5c845f5dbc3e.png",
     "static/media/RageRoomLogoMockup.png": "/static/media/RageRoomLogoMockup.1868e82b52aabf81fd4c.png",
     "static/media/TransformationMockup.png": "/static/media/TransformationMockup.b16ab14232d8004dd327.png",
@@ -73,11 +73,11 @@
     "static/media/Bubble.svg": "/static/media/Bubble.9b303879c39ce528c64f405481b7f1b8.svg",
     "static/media/Bubble_White.svg": "/static/media/Bubble_White.7fe1a9dc6ffd15755fc21bb0aeaa0e76.svg",
     "main.9200733b.css.map": "/static/css/main.9200733b.css.map",
-    "main.ef0bc998.js.map": "/static/js/main.ef0bc998.js.map",
+    "main.8f482283.js.map": "/static/js/main.8f482283.js.map",
     "453.4c64b689.chunk.js.map": "/static/js/453.4c64b689.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9200733b.css",
-    "static/js/main.ef0bc998.js"
+    "static/js/main.8f482283.js"
   ]
 }
