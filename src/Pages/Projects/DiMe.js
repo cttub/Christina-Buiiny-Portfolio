@@ -83,7 +83,7 @@ function DiMe() {
 
                   </div>
                   <div className='highlight-thumbnail col-lg-5' style={{objectFit: "cover"}}>
-                    <Image name = "DiMeGlossary" width="100%"/>
+                    <Image name = "DiMeBadging" width="100%"/>
                   </div>
               </div>
             </>
